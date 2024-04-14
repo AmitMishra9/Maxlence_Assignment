@@ -1,0 +1,80 @@
+/* RegistrationForm.css */
+
+.registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    color: #fff;
+    
+  }
+  
+  .registration-form {
+    width: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 10px 10px 8px 10px seashell;
+    text-align: center; 
+    background-color: black;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .form-group{
+    margin-bottom: 15px;
+    text-align: center; /* Align text center */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"],
+  .form-group input[type="file"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #f3eeee;
+    border-radius: 10px;
+    background-color: #ccc;
+    color: black;
+    margin: 0 auto; /* Center input field */
+  }
+  
+  button {
+    width: 70%;
+    padding: 10px;
+    background-color: #310ced;
+    color: #f7f2f2;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  button:hover {
+    background-color: #df0bc2;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

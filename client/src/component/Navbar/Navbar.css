@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(6, 205, 122);
+  border: 1px solid #a19f9f;
+  color: black;
+}
+
+.navbar-logo {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-heading {
+  flex-grow: 1;
+  text-align: center;
+  color: black;
+}
+
+.navbar-avatar {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.logout-button {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 9%;
+  right: 0;
+  background-color: rgb(11, 240, 191);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 25px;
+  color: #000;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Show dropdown when isOpen is true */
+.dropdown.active {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .logout-button {
+    order: 3;
+    margin-top: 10px;
+  }
+
+  .dropdown {
+    
+   
+    top: 9%;
+    margin-top: 10px;
+  }
+
+  .dropdown-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .dropdown {
+    top: 9%;
+    margin-top: 10px;
+  }
+}

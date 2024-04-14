@@ -1,0 +1,84 @@
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .login-form {
+    width: 500px;
+    padding: 46px;
+    margin: 25px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 8px 5px  8px 8px rgb(209, 206, 206);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+  }
+  
+ .form-group-log {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-log label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: larger;
+  }
+  
+  .form-group-log input {
+    width: 70%;
+    padding: 10px;
+    font-size: large;
+    font-weight: 400;
+    font-style: oblique;
+    margin: 5px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+  }
+  
+  .loginbtn{
+    width: 50%;
+    padding: 10px;
+    background-color: #4213cd;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .loginbtn :hover {
+    background-color: #d40c4c;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .register-link a {
+    color: #4213cd;
+    text-decoration: none;
+  }
+  .forgotpassword{
+     color: #4213cd;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    font-size: 2rem;
+    margin: 0 5px;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
